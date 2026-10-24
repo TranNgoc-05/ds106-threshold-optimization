@@ -1,0 +1,30 @@
+# Dữ liệu ma trận và checkpoint mô hình (nằm ngoài Git)
+src/data/
+*.pt
+*.bin
+*.ckpt
+*.h5
+*.safetensors
+
+# Môi trường ảo Python
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & Pytest
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Môi trường và file cấu hình cá nhân
+.env
+.env.local
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Thư mục chứa quỹ đạo nghiệm lớn (khi chạy benchmark)
+outputs/trajectories/
