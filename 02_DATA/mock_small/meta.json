@@ -1,0 +1,62 @@
+{
+  "arrays": {
+    "P_test": {
+      "dtype": "float64",
+      "max": 0.9966501159574507,
+      "min": 0.012580786118526891,
+      "shape": [
+        200,
+        28
+      ]
+    },
+    "P_val": {
+      "dtype": "float64",
+      "max": 0.9971014826078239,
+      "min": 0.01335628538464804,
+      "shape": [
+        200,
+        28
+      ]
+    },
+    "Y_test": {
+      "dtype": "uint8",
+      "max": 1.0,
+      "min": 0.0,
+      "shape": [
+        200,
+        28
+      ]
+    },
+    "Y_val": {
+      "dtype": "uint8",
+      "max": 1.0,
+      "min": 0.0,
+      "shape": [
+        200,
+        28
+      ]
+    }
+  },
+  "n": 200,
+  "n_labels": 28,
+  "neutral_idx": 27,
+  "parameters": {
+    "a_head": 1.8,
+    "a_tail": 1.15,
+    "b": 0.8,
+    "sigma": 1.0
+  },
+  "reproducibility_note": "meta.json does not hash itself; all other generated files are hashed.",
+  "seed": 106,
+  "sha256": {
+    "cv_folds_mock.npy": "d533b765db99f04834c533886e53089eaf3c7514a6622ec8f30dd25c859b4095",
+    "golden_cases.json": "cdd4f7c52e6d68e6523fea14b94271bfb2161cbe1fb7ad2a1eaa1686eb8d585f",
+    "mock_small/P_test.npy": "ffea7cca8b6124844ea00b39d5cb3ee4c28b0859cb51f442975e6222a14e09c7",
+    "mock_small/P_val.npy": "06ab17ec8ec5adfaa50e45d674a4299d4556c02f833522d9ba84ccf312e4365f",
+    "mock_small/Y_test.npy": "7423310957288d6ce0b205a64877d93e3fed22fd1b055ebf8fabf87e5986dd67",
+    "mock_small/Y_val.npy": "641a72b093db15c4629f4f1923e6c56da9c35fbe95d568d8eba5f761a117c15d",
+    "mock_small/mappings/mapping_freq3_mock.json": "a605b3efc14376264b425536ddc5c4169f351c6ea2a311e1e74617da68f35164",
+    "mock_small/mappings/mapping_semantic4_mock.json": "4b430bc99adf1f292cbe2ff913e7433bfd912d2f7c8a0d36ec3befdbac7e725d"
+  },
+  "train_mapping_source": "/workspaces/ds106-threshold-optimization/02_DATA/data_reannotation/train_reannotation.csv; label column 'labels'"
+}
