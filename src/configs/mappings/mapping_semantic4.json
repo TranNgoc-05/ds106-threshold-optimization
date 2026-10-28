@@ -1,0 +1,350 @@
+{
+    "metadata": {
+        "dataset": "ViGoEmotions",
+        "total_classes": 28,
+        "sentiment_groups": [
+            "pos",
+            "amb",
+            "neg",
+            "neu"
+        ]
+    },
+    "id_to_emotion": {
+        "0": "amusement",
+        "1": "excitement",
+        "2": "joy",
+        "3": "love",
+        "4": "desire",
+        "5": "optimism",
+        "6": "caring",
+        "7": "pride",
+        "8": "admiration",
+        "9": "gratitude",
+        "10": "relief",
+        "11": "approval",
+        "12": "realization",
+        "13": "surprise",
+        "14": "curiosity",
+        "15": "confusion",
+        "16": "fear",
+        "17": "nervousness",
+        "18": "remorse",
+        "19": "embarrassment",
+        "20": "disappointment",
+        "21": "sadness",
+        "22": "grief",
+        "23": "disgust",
+        "24": "anger",
+        "25": "annoyance",
+        "26": "disapproval",
+        "27": "neutral"
+    },
+    "emotion_to_id": {
+        "amusement": 0,
+        "excitement": 1,
+        "joy": 2,
+        "love": 3,
+        "desire": 4,
+        "optimism": 5,
+        "caring": 6,
+        "pride": 7,
+        "admiration": 8,
+        "gratitude": 9,
+        "relief": 10,
+        "approval": 11,
+        "realization": 12,
+        "surprise": 13,
+        "curiosity": 14,
+        "confusion": 15,
+        "fear": 16,
+        "nervousness": 17,
+        "remorse": 18,
+        "embarrassment": 19,
+        "disappointment": 20,
+        "sadness": 21,
+        "grief": 22,
+        "disgust": 23,
+        "anger": 24,
+        "annoyance": 25,
+        "disapproval": 26,
+        "neutral": 27
+    },
+    "emotion_to_group": {
+        "amusement": "pos",
+        "excitement": "pos",
+        "joy": "pos",
+        "love": "pos",
+        "desire": "pos",
+        "optimism": "pos",
+        "caring": "pos",
+        "pride": "pos",
+        "admiration": "pos",
+        "gratitude": "pos",
+        "relief": "pos",
+        "approval": "pos",
+        "realization": "amb",
+        "surprise": "amb",
+        "curiosity": "amb",
+        "confusion": "amb",
+        "fear": "neg",
+        "nervousness": "neg",
+        "remorse": "neg",
+        "embarrassment": "neg",
+        "disappointment": "neg",
+        "sadness": "neg",
+        "grief": "neg",
+        "disgust": "neg",
+        "anger": "neg",
+        "annoyance": "neg",
+        "disapproval": "neg",
+        "neutral": "neu"
+    },
+    "id_to_group": {
+        "0": "pos",
+        "1": "pos",
+        "2": "pos",
+        "3": "pos",
+        "4": "pos",
+        "5": "pos",
+        "6": "pos",
+        "7": "pos",
+        "8": "pos",
+        "9": "pos",
+        "10": "pos",
+        "11": "pos",
+        "12": "amb",
+        "13": "amb",
+        "14": "amb",
+        "15": "amb",
+        "16": "neg",
+        "17": "neg",
+        "18": "neg",
+        "19": "neg",
+        "20": "neg",
+        "21": "neg",
+        "22": "neg",
+        "23": "neg",
+        "24": "neg",
+        "25": "neg",
+        "26": "neg",
+        "27": "neu"
+    },
+    "group_to_ids": {
+        "pos": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+        ],
+        "amb": [
+            12,
+            13,
+            14,
+            15
+        ],
+        "neg": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+        ],
+        "neu": [
+            27
+        ]
+    },
+    "group_to_emotions": {
+        "pos": [
+            "amusement",
+            "excitement",
+            "joy",
+            "love",
+            "desire",
+            "optimism",
+            "caring",
+            "pride",
+            "admiration",
+            "gratitude",
+            "relief",
+            "approval"
+        ],
+        "amb": [
+            "realization",
+            "surprise",
+            "curiosity",
+            "confusion"
+        ],
+        "neg": [
+            "fear",
+            "nervousness",
+            "remorse",
+            "embarrassment",
+            "disappointment",
+            "sadness",
+            "grief",
+            "disgust",
+            "anger",
+            "annoyance",
+            "disapproval"
+        ],
+        "neu": [
+            "neutral"
+        ]
+    },
+    "detailed_mapping": [
+        {
+            "id": 0,
+            "emotion": "amusement",
+            "group": "pos"
+        },
+        {
+            "id": 1,
+            "emotion": "excitement",
+            "group": "pos"
+        },
+        {
+            "id": 2,
+            "emotion": "joy",
+            "group": "pos"
+        },
+        {
+            "id": 3,
+            "emotion": "love",
+            "group": "pos"
+        },
+        {
+            "id": 4,
+            "emotion": "desire",
+            "group": "pos"
+        },
+        {
+            "id": 5,
+            "emotion": "optimism",
+            "group": "pos"
+        },
+        {
+            "id": 6,
+            "emotion": "caring",
+            "group": "pos"
+        },
+        {
+            "id": 7,
+            "emotion": "pride",
+            "group": "pos"
+        },
+        {
+            "id": 8,
+            "emotion": "admiration",
+            "group": "pos"
+        },
+        {
+            "id": 9,
+            "emotion": "gratitude",
+            "group": "pos"
+        },
+        {
+            "id": 10,
+            "emotion": "relief",
+            "group": "pos"
+        },
+        {
+            "id": 11,
+            "emotion": "approval",
+            "group": "pos"
+        },
+        {
+            "id": 12,
+            "emotion": "realization",
+            "group": "amb"
+        },
+        {
+            "id": 13,
+            "emotion": "surprise",
+            "group": "amb"
+        },
+        {
+            "id": 14,
+            "emotion": "curiosity",
+            "group": "amb"
+        },
+        {
+            "id": 15,
+            "emotion": "confusion",
+            "group": "amb"
+        },
+        {
+            "id": 16,
+            "emotion": "fear",
+            "group": "neg"
+        },
+        {
+            "id": 17,
+            "emotion": "nervousness",
+            "group": "neg"
+        },
+        {
+            "id": 18,
+            "emotion": "remorse",
+            "group": "neg"
+        },
+        {
+            "id": 19,
+            "emotion": "embarrassment",
+            "group": "neg"
+        },
+        {
+            "id": 20,
+            "emotion": "disappointment",
+            "group": "neg"
+        },
+        {
+            "id": 21,
+            "emotion": "sadness",
+            "group": "neg"
+        },
+        {
+            "id": 22,
+            "emotion": "grief",
+            "group": "neg"
+        },
+        {
+            "id": 23,
+            "emotion": "disgust",
+            "group": "neg"
+        },
+        {
+            "id": 24,
+            "emotion": "anger",
+            "group": "neg"
+        },
+        {
+            "id": 25,
+            "emotion": "annoyance",
+            "group": "neg"
+        },
+        {
+            "id": 26,
+            "emotion": "disapproval",
+            "group": "neg"
+        },
+        {
+            "id": 27,
+            "emotion": "neutral",
+            "group": "neu"
+        }
+    ]
+}
